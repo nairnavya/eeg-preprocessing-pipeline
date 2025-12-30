@@ -1,1 +1,1 @@
-# EEG Processing Toolkit
+# EEG preprocessing pipeline
