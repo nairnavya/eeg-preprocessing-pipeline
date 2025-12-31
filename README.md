@@ -1,1 +1,3 @@
 # EEG preprocessing pipeline
+
+This EEG Preprocessing and Classification Pipeline was derived from our work in the NeurotechX club at UIUC as part of a project to build an emotion classifier. The pipeline uses MNE-Python to load raw EDF files and processes the signals using Welch’s method to calculate Power Spectral Density (PSD) within the 7–30 Hz range. After dimensionality reduction via Principal Component Analysis (PCA), the data is passed into two different classifiers for comparison: a K-Nearest Neighbors (KNN) model with an automated k-optimization loop and a Support Vector Machine (SVM) classifier.
